@@ -1,3 +1,3 @@
 # WorkEnvironment
 
-Setting up my Working Environment
+Scripts, configurations etc used to set myself up on a new machine.
