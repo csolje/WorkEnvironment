@@ -1,0 +1,1066 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.HistoryInfo</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>cd .\private_repos\NCSQLServer\</ToString>
+    <Props>
+      <I64 N="Id">1</I64>
+      <S N="CommandLine">cd .\private_repos\NCSQLServer\</S>
+      <Obj N="ExecutionStatus" RefId="1">
+        <TN RefId="1">
+          <T>System.Management.Automation.Runspaces.PipelineState</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-05-28T14:45:44.9952314+02:00</DT>
+      <DT N="EndExecutionTime">2019-05-28T14:45:44.9975336+02:00</DT>
+      <TS N="Duration">PT0.0023022S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <ToString>git status</ToString>
+    <Props>
+      <I64 N="Id">2</I64>
+      <S N="CommandLine">git status</S>
+      <Obj N="ExecutionStatus" RefId="3">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-05-28T14:46:00.9069648+02:00</DT>
+      <DT N="EndExecutionTime">2019-05-28T14:46:00.980987+02:00</DT>
+      <TS N="Duration">PT0.0740222S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <ToString>cd ..</ToString>
+    <Props>
+      <I64 N="Id">3</I64>
+      <S N="CommandLine">cd ..</S>
+      <Obj N="ExecutionStatus" RefId="5">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-05-28T14:46:07.8452701+02:00</DT>
+      <DT N="EndExecutionTime">2019-05-28T14:46:07.8508029+02:00</DT>
+      <TS N="Duration">PT0.0055328S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <ToString>cd .\T-SQL\</ToString>
+    <Props>
+      <I64 N="Id">4</I64>
+      <S N="CommandLine">cd .\T-SQL\</S>
+      <Obj N="ExecutionStatus" RefId="7">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-05-28T14:46:10.6761257+02:00</DT>
+      <DT N="EndExecutionTime">2019-05-28T14:46:10.6814982+02:00</DT>
+      <TS N="Duration">PT0.0053725S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <ToString>git status</ToString>
+    <Props>
+      <I64 N="Id">5</I64>
+      <S N="CommandLine">git status</S>
+      <Obj N="ExecutionStatus" RefId="9">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-05-28T14:46:17.8741692+02:00</DT>
+      <DT N="EndExecutionTime">2019-05-28T14:46:17.9289455+02:00</DT>
+      <TS N="Duration">PT0.0547763S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <ToString>code-insiders.cmd $PROFILE</ToString>
+    <Props>
+      <I64 N="Id">6</I64>
+      <S N="CommandLine">code-insiders.cmd $PROFILE</S>
+      <Obj N="ExecutionStatus" RefId="11">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-07-10T14:00:54.8707516+02:00</DT>
+      <DT N="EndExecutionTime">2019-07-10T14:00:55.4936383+02:00</DT>
+      <TS N="Duration">PT0.6228867S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <ToString>Get-VM</ToString>
+    <Props>
+      <I64 N="Id">7</I64>
+      <S N="CommandLine">Get-VM</S>
+      <Obj N="ExecutionStatus" RefId="13">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-14T08:50:28.651355+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-14T08:50:29.2435878+02:00</DT>
+      <TS N="Duration">PT0.5922328S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <ToString>Start-VM BaneJumpVM</ToString>
+    <Props>
+      <I64 N="Id">8</I64>
+      <S N="CommandLine">Start-VM BaneJumpVM</S>
+      <Obj N="ExecutionStatus" RefId="15">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-14T08:50:45.5191745+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-14T08:50:53.6027672+02:00</DT>
+      <TS N="Duration">PT8.0835927S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <ToString>Get-VM</ToString>
+    <Props>
+      <I64 N="Id">9</I64>
+      <S N="CommandLine">Get-VM</S>
+      <Obj N="ExecutionStatus" RefId="17">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-14T08:51:47.5214866+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-14T08:51:47.6730584+02:00</DT>
+      <TS N="Duration">PT0.1515718S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <ToString>Get-VM</ToString>
+    <Props>
+      <I64 N="Id">10</I64>
+      <S N="CommandLine">Get-VM</S>
+      <Obj N="ExecutionStatus" RefId="19">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T10:20:49.2156876+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T10:20:50.7720793+02:00</DT>
+      <TS N="Duration">PT1.5563917S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <ToString>Start-VM BaneJumpVM</ToString>
+    <Props>
+      <I64 N="Id">11</I64>
+      <S N="CommandLine">Start-VM BaneJumpVM</S>
+      <Obj N="ExecutionStatus" RefId="21">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T10:21:19.1818298+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T10:21:28.469172+02:00</DT>
+      <TS N="Duration">PT9.2873422S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <ToString>code $PROFILE</ToString>
+    <Props>
+      <I64 N="Id">12</I64>
+      <S N="CommandLine">code $PROFILE</S>
+      <Obj N="ExecutionStatus" RefId="23">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T10:22:14.1009065+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T10:22:14.7224429+02:00</DT>
+      <TS N="Duration">PT0.6215364S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <ToString>Start-Docker</ToString>
+    <Props>
+      <I64 N="Id">13</I64>
+      <S N="CommandLine">Start-Docker</S>
+      <Obj N="ExecutionStatus" RefId="25">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:03:24.2945545+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:03:24.3729381+02:00</DT>
+      <TS N="Duration">PT0.0783836S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="26">
+    <TNRef RefId="0" />
+    <ToString>Start-Docker</ToString>
+    <Props>
+      <I64 N="Id">14</I64>
+      <S N="CommandLine">Start-Docker</S>
+      <Obj N="ExecutionStatus" RefId="27">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:13:34.476991+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:13:34.5249043+02:00</DT>
+      <TS N="Duration">PT0.0479133S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="28">
+    <TNRef RefId="0" />
+    <ToString>Code $PROFILE</ToString>
+    <Props>
+      <I64 N="Id">15</I64>
+      <S N="CommandLine">Code $PROFILE</S>
+      <Obj N="ExecutionStatus" RefId="29">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:14:50.6314323+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:14:50.8833168+02:00</DT>
+      <TS N="Duration">PT0.2518845S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <ToString>docker images</ToString>
+    <Props>
+      <I64 N="Id">16</I64>
+      <S N="CommandLine">docker images</S>
+      <Obj N="ExecutionStatus" RefId="31">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:18:21.0351073+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:18:23.3852992+02:00</DT>
+      <TS N="Duration">PT2.3501919S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="32">
+    <TNRef RefId="0" />
+    <ToString>update-module dbatools</ToString>
+    <Props>
+      <I64 N="Id">17</I64>
+      <S N="CommandLine">update-module dbatools</S>
+      <Obj N="ExecutionStatus" RefId="33">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:18:38.0800663+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:19:24.6521203+02:00</DT>
+      <TS N="Duration">PT46.572054S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <ToString>Get-Module -Name dbatools</ToString>
+    <Props>
+      <I64 N="Id">18</I64>
+      <S N="CommandLine">Get-Module -Name dbatools</S>
+      <Obj N="ExecutionStatus" RefId="35">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:20:34.1678743+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:20:34.1739757+02:00</DT>
+      <TS N="Duration">PT0.0061014S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <ToString>Get-Module dbatools</ToString>
+    <Props>
+      <I64 N="Id">19</I64>
+      <S N="CommandLine">Get-Module dbatools</S>
+      <Obj N="ExecutionStatus" RefId="37">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:20:40.1525633+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:20:40.1600131+02:00</DT>
+      <TS N="Duration">PT0.0074498S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="38">
+    <TNRef RefId="0" />
+    <ToString>Get-Module</ToString>
+    <Props>
+      <I64 N="Id">20</I64>
+      <S N="CommandLine">Get-Module</S>
+      <Obj N="ExecutionStatus" RefId="39">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:20:49.4114428+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:20:49.4360405+02:00</DT>
+      <TS N="Duration">PT0.0245977S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <ToString>Get-Module -ListAvailable</ToString>
+    <Props>
+      <I64 N="Id">21</I64>
+      <S N="CommandLine">Get-Module -ListAvailable</S>
+      <Obj N="ExecutionStatus" RefId="41">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:20:59.8494656+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:21:03.7269523+02:00</DT>
+      <TS N="Duration">PT3.8774867S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <ToString>cd C:\Users\ChristianSølje\Documents\PowerShell\Modules</ToString>
+    <Props>
+      <I64 N="Id">22</I64>
+      <S N="CommandLine">cd C:\Users\ChristianSølje\Documents\PowerShell\Modules</S>
+      <Obj N="ExecutionStatus" RefId="43">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:21:44.7360453+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:21:44.7447331+02:00</DT>
+      <TS N="Duration">PT0.0086878S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <ToString>ls</ToString>
+    <Props>
+      <I64 N="Id">23</I64>
+      <S N="CommandLine">ls</S>
+      <Obj N="ExecutionStatus" RefId="45">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:21:46.0584116+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:21:46.1065076+02:00</DT>
+      <TS N="Duration">PT0.048096S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="46">
+    <TNRef RefId="0" />
+    <ToString>cd .\dbatools\</ToString>
+    <Props>
+      <I64 N="Id">24</I64>
+      <S N="CommandLine">cd .\dbatools\</S>
+      <Obj N="ExecutionStatus" RefId="47">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:21:48.801625+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:21:48.8090855+02:00</DT>
+      <TS N="Duration">PT0.0074605S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <ToString>ls</ToString>
+    <Props>
+      <I64 N="Id">25</I64>
+      <S N="CommandLine">ls</S>
+      <Obj N="ExecutionStatus" RefId="49">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:21:49.4382911+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:21:49.459255+02:00</DT>
+      <TS N="Duration">PT0.0209639S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <ToString>Remove-Item -Path .\0.9.809\ -Recurse -Force</ToString>
+    <Props>
+      <I64 N="Id">26</I64>
+      <S N="CommandLine">Remove-Item -Path .\0.9.809\ -Recurse -Force</S>
+      <Obj N="ExecutionStatus" RefId="51">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:22:17.1800641+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:22:17.4576197+02:00</DT>
+      <TS N="Duration">PT0.2775556S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="52">
+    <TNRef RefId="0" />
+    <ToString>ls</ToString>
+    <Props>
+      <I64 N="Id">27</I64>
+      <S N="CommandLine">ls</S>
+      <Obj N="ExecutionStatus" RefId="53">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:22:20.2648658+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:22:20.2755288+02:00</DT>
+      <TS N="Duration">PT0.010663S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <ToString>Remove-Item -Recurse -Force -Path .\0.9.832\</ToString>
+    <Props>
+      <I64 N="Id">28</I64>
+      <S N="CommandLine">Remove-Item -Recurse -Force -Path .\0.9.832\</S>
+      <Obj N="ExecutionStatus" RefId="55">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:22:33.6881736+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:22:33.9423756+02:00</DT>
+      <TS N="Duration">PT0.254202S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="56">
+    <TNRef RefId="0" />
+    <ToString>Remove-Item -Recurse -Force -Path .\1.0.22\</ToString>
+    <Props>
+      <I64 N="Id">29</I64>
+      <S N="CommandLine">Remove-Item -Recurse -Force -Path .\1.0.22\</S>
+      <Obj N="ExecutionStatus" RefId="57">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:22:40.6411861+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:22:40.8878244+02:00</DT>
+      <TS N="Duration">PT0.2466383S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="58">
+    <TNRef RefId="0" />
+    <ToString>Remove-Item -Recurse -Force -Path .\1.0.33\</ToString>
+    <Props>
+      <I64 N="Id">30</I64>
+      <S N="CommandLine">Remove-Item -Recurse -Force -Path .\1.0.33\</S>
+      <Obj N="ExecutionStatus" RefId="59">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:22:46.5919315+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:22:46.7765054+02:00</DT>
+      <TS N="Duration">PT0.1845739S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="60">
+    <TNRef RefId="0" />
+    <ToString>Install-Module dbatools -Force</ToString>
+    <Props>
+      <I64 N="Id">31</I64>
+      <S N="CommandLine">Install-Module dbatools -Force</S>
+      <Obj N="ExecutionStatus" RefId="61">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:23:01.2889383+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:23:43.6697169+02:00</DT>
+      <TS N="Duration">PT42.3807786S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="62">
+    <TNRef RefId="0" />
+    <ToString>docker run -p 1433:1433 -p 5022:5022 --network localnet --hostname dockersql1 --name dockersql1 -d dbatools/sqlinstance</ToString>
+    <Props>
+      <I64 N="Id">32</I64>
+      <S N="CommandLine">docker run -p 1433:1433 -p 5022:5022 --network localnet --hostname dockersql1 --name dockersql1 -d dbatools/sqlinstance</S>
+      <Obj N="ExecutionStatus" RefId="63">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:12.8805109+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:15.3298732+02:00</DT>
+      <TS N="Duration">PT2.4493623S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="64">
+    <TNRef RefId="0" />
+    <ToString>docker container</ToString>
+    <Props>
+      <I64 N="Id">33</I64>
+      <S N="CommandLine">docker container</S>
+      <Obj N="ExecutionStatus" RefId="65">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:27.5618429+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:27.8067823+02:00</DT>
+      <TS N="Duration">PT0.2449394S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="66">
+    <TNRef RefId="0" />
+    <ToString>docker container ls</ToString>
+    <Props>
+      <I64 N="Id">34</I64>
+      <S N="CommandLine">docker container ls</S>
+      <Obj N="ExecutionStatus" RefId="67">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:30.7511343+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:30.8526572+02:00</DT>
+      <TS N="Duration">PT0.1015229S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="68">
+    <TNRef RefId="0" />
+    <ToString>docker container ls -a</ToString>
+    <Props>
+      <I64 N="Id">35</I64>
+      <S N="CommandLine">docker container ls -a</S>
+      <Obj N="ExecutionStatus" RefId="69">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:33.9764717+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:34.094767+02:00</DT>
+      <TS N="Duration">PT0.1182953S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="70">
+    <TNRef RefId="0" />
+    <ToString>docker rm dockersql1</ToString>
+    <Props>
+      <I64 N="Id">36</I64>
+      <S N="CommandLine">docker rm dockersql1</S>
+      <Obj N="ExecutionStatus" RefId="71">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:47.6128756+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:50.0014371+02:00</DT>
+      <TS N="Duration">PT2.3885615S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="72">
+    <TNRef RefId="0" />
+    <ToString>docker container ls -a</ToString>
+    <Props>
+      <I64 N="Id">37</I64>
+      <S N="CommandLine">docker container ls -a</S>
+      <Obj N="ExecutionStatus" RefId="73">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:52.0411064+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:52.1349093+02:00</DT>
+      <TS N="Duration">PT0.0938029S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="74">
+    <TNRef RefId="0" />
+    <ToString>docker run -p 1433:1433 -p 5022:5022 --network localnet --hostname dockersql1 --name dockersql1 -d dbatools/sqlinstance</ToString>
+    <Props>
+      <I64 N="Id">38</I64>
+      <S N="CommandLine">docker run -p 1433:1433 -p 5022:5022 --network localnet --hostname dockersql1 --name dockersql1 -d dbatools/sqlinstance</S>
+      <Obj N="ExecutionStatus" RefId="75">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:27:57.0067532+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:27:58.0291209+02:00</DT>
+      <TS N="Duration">PT1.0223677S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="76">
+    <TNRef RefId="0" />
+    <ToString>docker run -p 14333:1433 -p 5023:5023  --network localnet --hostname dockersql2 --name dockersql2 -d dbatools/sqlinstance2</ToString>
+    <Props>
+      <I64 N="Id">39</I64>
+      <S N="CommandLine">docker run -p 14333:1433 -p 5023:5023  --network localnet --hostname dockersql2 --name dockersql2 -d dbatools/sqlinstance2</S>
+      <Obj N="ExecutionStatus" RefId="77">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:28:10.0520581+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:28:10.9168062+02:00</DT>
+      <TS N="Duration">PT0.8647481S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="78">
+    <TNRef RefId="0" />
+    <ToString>$cred = Get-Credential -UserName sqladmin</ToString>
+    <Props>
+      <I64 N="Id">40</I64>
+      <S N="CommandLine">$cred = Get-Credential -UserName sqladmin</S>
+      <Obj N="ExecutionStatus" RefId="79">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:28:32.3970307+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:28:43.1505087+02:00</DT>
+      <TS N="Duration">PT10.753478S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="80">
+    <TNRef RefId="0" />
+    <ToString>$params = @{_x000A_    Primary = "localhost"_x000A_    PrimarySqlCredential = $cred_x000A_    Secondary = "localhost:14333"_x000A_    SecondarySqlCredential = $cred_x000A_    Name = "test-ag"_x000A_    Database = "pubs"_x000A_    ClusterType = "None"_x000A_    SeedingMode = "Automatic"_x000A_    FailoverMode = "Manual"_x000A_    Confirm = $false_x000A_ }</ToString>
+    <Props>
+      <I64 N="Id">41</I64>
+      <S N="CommandLine">$params = @{_x000A_    Primary = "localhost"_x000A_    PrimarySqlCredential = $cred_x000A_    Secondary = "localhost:14333"_x000A_    SecondarySqlCredential = $cred_x000A_    Name = "test-ag"_x000A_    Database = "pubs"_x000A_    ClusterType = "None"_x000A_    SeedingMode = "Automatic"_x000A_    FailoverMode = "Manual"_x000A_    Confirm = $false_x000A_ }</S>
+      <Obj N="ExecutionStatus" RefId="81">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:29:02.7299139+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:29:02.7392331+02:00</DT>
+      <TS N="Duration">PT0.0093192S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="82">
+    <TNRef RefId="0" />
+    <ToString>New-DbaAvailabilityGroup @params</ToString>
+    <Props>
+      <I64 N="Id">42</I64>
+      <S N="CommandLine">New-DbaAvailabilityGroup @params</S>
+      <Obj N="ExecutionStatus" RefId="83">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:29:12.0698987+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:35:09.5149798+02:00</DT>
+      <TS N="Duration">PT5M57.4450811S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <ToString>ssms</ToString>
+    <Props>
+      <I64 N="Id">43</I64>
+      <S N="CommandLine">ssms</S>
+      <Obj N="ExecutionStatus" RefId="85">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:35:33.7778425+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:35:33.9061344+02:00</DT>
+      <TS N="Duration">PT0.1282919S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="86">
+    <TNRef RefId="0" />
+    <ToString>.\ssms</ToString>
+    <Props>
+      <I64 N="Id">44</I64>
+      <S N="CommandLine">.\ssms</S>
+      <Obj N="ExecutionStatus" RefId="87">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:35:37.8735905+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:35:37.8971437+02:00</DT>
+      <TS N="Duration">PT0.0235532S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="88">
+    <TNRef RefId="0" />
+    <ToString>&amp; .\ssms</ToString>
+    <Props>
+      <I64 N="Id">45</I64>
+      <S N="CommandLine">&amp; .\ssms</S>
+      <Obj N="ExecutionStatus" RefId="89">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:35:50.2930296+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:35:50.3251481+02:00</DT>
+      <TS N="Duration">PT0.0321185S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="90">
+    <TNRef RefId="0" />
+    <ToString>ls</ToString>
+    <Props>
+      <I64 N="Id">46</I64>
+      <S N="CommandLine">ls</S>
+      <Obj N="ExecutionStatus" RefId="91">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-08-19T15:35:57.2666965+02:00</DT>
+      <DT N="EndExecutionTime">2019-08-19T15:35:57.2916404+02:00</DT>
+      <TS N="Duration">PT0.0249439S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="92">
+    <TNRef RefId="0" />
+    <ToString>Save-History</ToString>
+    <Props>
+      <I64 N="Id">47</I64>
+      <S N="CommandLine">Save-History</S>
+      <Obj N="ExecutionStatus" RefId="93">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-09-30T11:44:59.1887106+02:00</DT>
+      <DT N="EndExecutionTime">2019-09-30T11:44:59.2362086+02:00</DT>
+      <TS N="Duration">PT0.047498S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="94">
+    <TNRef RefId="0" />
+    <ToString>Compact-VHD -Path "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\BaneJumpVM.vhdx" -Mode Full</ToString>
+    <Props>
+      <I64 N="Id">48</I64>
+      <S N="CommandLine">Compact-VHD -Path "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\BaneJumpVM.vhdx" -Mode Full</S>
+      <Obj N="ExecutionStatus" RefId="95">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-09-30T11:49:40.3075705+02:00</DT>
+      <DT N="EndExecutionTime">2019-09-30T11:49:41.9910017+02:00</DT>
+      <TS N="Duration">PT1.6834312S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="96">
+    <TNRef RefId="0" />
+    <ToString>banen</ToString>
+    <Props>
+      <I64 N="Id">49</I64>
+      <S N="CommandLine">banen</S>
+      <Obj N="ExecutionStatus" RefId="97">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-09-30T11:50:02.4080373+02:00</DT>
+      <DT N="EndExecutionTime">2019-09-30T11:50:35.084772+02:00</DT>
+      <TS N="Duration">PT32.6767347S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="98">
+    <TNRef RefId="0" />
+    <ToString>banen</ToString>
+    <Props>
+      <I64 N="Id">50</I64>
+      <S N="CommandLine">banen</S>
+      <Obj N="ExecutionStatus" RefId="99">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-10-09T09:44:44.4199762+02:00</DT>
+      <DT N="EndExecutionTime">2019-10-09T09:45:16.0783628+02:00</DT>
+      <TS N="Duration">PT31.6583866S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="100">
+    <TNRef RefId="0" />
+    <ToString>mstsc /v:10.4.50.64</ToString>
+    <Props>
+      <I64 N="Id">51</I64>
+      <S N="CommandLine">mstsc /v:10.4.50.64</S>
+      <Obj N="ExecutionStatus" RefId="101">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2019-10-09T09:51:52.2512378+02:00</DT>
+      <DT N="EndExecutionTime">2019-10-09T09:51:52.2716978+02:00</DT>
+      <TS N="Duration">PT0.02046S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="102">
+    <TNRef RefId="0" />
+    <ToString>Install-Module -Name PackageManagement -Force</ToString>
+    <Props>
+      <I64 N="Id">52</I64>
+      <S N="CommandLine">Install-Module -Name PackageManagement -Force</S>
+      <Obj N="ExecutionStatus" RefId="103">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-01-13T15:42:16.9711723+01:00</DT>
+      <DT N="EndExecutionTime">2020-01-13T15:42:27.2787894+01:00</DT>
+      <TS N="Duration">PT10.3076171S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="104">
+    <TNRef RefId="0" />
+    <ToString>Update-Module -Name PackageManagement -Force</ToString>
+    <Props>
+      <I64 N="Id">53</I64>
+      <S N="CommandLine">Update-Module -Name PackageManagement -Force</S>
+      <Obj N="ExecutionStatus" RefId="105">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-01-13T15:42:43.5644008+01:00</DT>
+      <DT N="EndExecutionTime">2020-01-13T15:42:50.3177062+01:00</DT>
+      <TS N="Duration">PT6.7533054S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="106">
+    <TNRef RefId="0" />
+    <ToString>Update-Module -Name PowerShellGet -Force</ToString>
+    <Props>
+      <I64 N="Id">54</I64>
+      <S N="CommandLine">Update-Module -Name PowerShellGet -Force</S>
+      <Obj N="ExecutionStatus" RefId="107">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-01-13T15:43:09.3622347+01:00</DT>
+      <DT N="EndExecutionTime">2020-01-13T15:43:19.1383091+01:00</DT>
+      <TS N="Duration">PT9.7760744S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="108">
+    <TNRef RefId="0" />
+    <ToString>mstsc /v:10.4.50.64</ToString>
+    <Props>
+      <I64 N="Id">55</I64>
+      <S N="CommandLine">mstsc /v:10.4.50.64</S>
+      <Obj N="ExecutionStatus" RefId="109">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-01-14T10:02:18.861682+01:00</DT>
+      <DT N="EndExecutionTime">2020-01-14T10:02:18.9288886+01:00</DT>
+      <TS N="Duration">PT0.0672066S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="110">
+    <TNRef RefId="0" />
+    <ToString>Install-Module -Name Az -AllowClobber -Scope CurrentUser</ToString>
+    <Props>
+      <I64 N="Id">56</I64>
+      <S N="CommandLine">Install-Module -Name Az -AllowClobber -Scope CurrentUser</S>
+      <Obj N="ExecutionStatus" RefId="111">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T15:53:38.7831933+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T15:54:57.9019182+01:00</DT>
+      <TS N="Duration">PT1M19.1187249S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="112">
+    <TNRef RefId="0" />
+    <ToString>Get-AzSubscription</ToString>
+    <Props>
+      <I64 N="Id">58</I64>
+      <S N="CommandLine">Get-AzSubscription</S>
+      <Obj N="ExecutionStatus" RefId="113">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:03:15.7852186+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:03:17.5402754+01:00</DT>
+      <TS N="Duration">PT1.7550568S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="114">
+    <TNRef RefId="0" />
+    <ToString>help Select-AzSubscription</ToString>
+    <Props>
+      <I64 N="Id">59</I64>
+      <S N="CommandLine">help Select-AzSubscription</S>
+      <Obj N="ExecutionStatus" RefId="115">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:03:36.745264+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:04:09.1312819+01:00</DT>
+      <TS N="Duration">PT32.3860179S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="116">
+    <TNRef RefId="0" />
+    <ToString>Get-AzSubscription</ToString>
+    <Props>
+      <I64 N="Id">60</I64>
+      <S N="CommandLine">Get-AzSubscription</S>
+      <Obj N="ExecutionStatus" RefId="117">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:04:11.5888077+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:04:14.9770818+01:00</DT>
+      <TS N="Duration">PT3.3882741S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="118">
+    <TNRef RefId="0" />
+    <ToString>Set-AzContext -SubscriptionId '1002f555-8f77-4c27-b605-b7fd5e44d6f4'</ToString>
+    <Props>
+      <I64 N="Id">61</I64>
+      <S N="CommandLine">Set-AzContext -SubscriptionId '1002f555-8f77-4c27-b605-b7fd5e44d6f4'</S>
+      <Obj N="ExecutionStatus" RefId="119">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:04:52.9701638+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:04:56.2240139+01:00</DT>
+      <TS N="Duration">PT3.2538501S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="120">
+    <TNRef RefId="0" />
+    <ToString>Select-AzSubscription -SubscriptionName 'HOST-APPDEV-PRD-01'</ToString>
+    <Props>
+      <I64 N="Id">62</I64>
+      <S N="CommandLine">Select-AzSubscription -SubscriptionName 'HOST-APPDEV-PRD-01'</S>
+      <Obj N="ExecutionStatus" RefId="121">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:05:37.6142372+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:05:39.4165467+01:00</DT>
+      <TS N="Duration">PT1.8023095S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="122">
+    <TNRef RefId="0" />
+    <ToString>$storageAccount = Get-AzStorageAccount -ResourceGroupName 'apps-tms-prd-rg' -Name 'appstmsciprdsa'</ToString>
+    <Props>
+      <I64 N="Id">63</I64>
+      <S N="CommandLine">$storageAccount = Get-AzStorageAccount -ResourceGroupName 'apps-tms-prd-rg' -Name 'appstmsciprdsa'</S>
+      <Obj N="ExecutionStatus" RefId="123">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:08:08.8089022+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:08:10.2094291+01:00</DT>
+      <TS N="Duration">PT1.4005269S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="124">
+    <TNRef RefId="0" />
+    <ToString>$storageAccount</ToString>
+    <Props>
+      <I64 N="Id">64</I64>
+      <S N="CommandLine">$storageAccount</S>
+      <Obj N="ExecutionStatus" RefId="125">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:08:15.6965916+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:08:15.7275887+01:00</DT>
+      <TS N="Duration">PT0.0309971S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="126">
+    <TNRef RefId="0" />
+    <ToString>Get-AzStorageBlob -Context $storageAccount.Context -Container 'iso'</ToString>
+    <Props>
+      <I64 N="Id">65</I64>
+      <S N="CommandLine">Get-AzStorageBlob -Context $storageAccount.Context -Container 'iso'</S>
+      <Obj N="ExecutionStatus" RefId="127">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:09:18.477809+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:09:19.8497083+01:00</DT>
+      <TS N="Duration">PT1.3718993S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="128">
+    <TNRef RefId="0" />
+    <ToString>Get-AzStorageBlob -Context $storageAccount.Context -Container 'iso' | ft -AutoSize</ToString>
+    <Props>
+      <I64 N="Id">66</I64>
+      <S N="CommandLine">Get-AzStorageBlob -Context $storageAccount.Context -Container 'iso' | ft -AutoSize</S>
+      <Obj N="ExecutionStatus" RefId="129">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-04T16:09:28.8579501+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-04T16:09:28.987752+01:00</DT>
+      <TS N="Duration">PT0.1298019S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="130">
+    <TNRef RefId="0" />
+    <ToString>Get-AzStorageBlob -Context $storageAccount.Context -Container 'iso' | ft -AutoSize</ToString>
+    <Props>
+      <I64 N="Id">67</I64>
+      <S N="CommandLine">Get-AzStorageBlob -Context $storageAccount.Context -Container 'iso' | ft -AutoSize</S>
+      <Obj N="ExecutionStatus" RefId="131">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2020-02-06T05:59:15.5110532+01:00</DT>
+      <DT N="EndExecutionTime">2020-02-06T05:59:15.9340601+01:00</DT>
+      <TS N="Duration">PT0.4230069S</TS>
+    </Props>
+  </Obj>
+</Objs>
