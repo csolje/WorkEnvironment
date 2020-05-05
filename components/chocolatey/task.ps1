@@ -41,3 +41,8 @@ foreach ($package in $packages.packages)
 {
     choco upgrade -y $package
 }
+$Modules =  "CredentialManager", "posh-git", "ImportExcel", "SqlServer", "PowerLine", "Posh-SSH"
+foreach ($Module in $Modules)
+{
+    Install-Module -Name $Module
+}
