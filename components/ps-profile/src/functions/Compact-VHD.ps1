@@ -11,8 +11,7 @@ function Compact-VHD
 	v1.0 January 28th, 2018
 	(c) 2018 Eric Siron
 	#>
-    #requires -Module Hyper-V
-    [CmdletBinding()]
+   [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true, ValueFromPipeline = $true)][String]$Path,
         [Parameter()][Microsoft.Vhd.PowerShell.VhdCompactMode]$Mode = [Microsoft.Vhd.PowerShell.VhdCompactMode]::Full
