@@ -11,19 +11,19 @@ if (-not (Get-Module -ListAvailable -Name Posh-SSH))
 {
     Install-Module -Name Posh-SSH -Scope CurrentUser
 }
-if (-not (Get-Module -ListAvailable -Name powerline))
+<#if (-not (Get-Module -ListAvailable -Name powerline))
 {
     Install-Module -Name powerline -Scope CurrentUser
-}
+}#>
 if (-not (Get-Module -ListAvailable -Name oh-my-posh))
 {
     Install-Module -Name oh-my-posh -Scope CurrentUser
 }
 Import-Module PSReadline
 Import-Module posh-git
-Import-Module powerline
+#Import-Module powerline
 Import-Module oh-my-posh
-Set-Theme Paradox
+#Set-Theme Paradox
 
 # Start Apps and set Location
 Start-SshAgent -Quiet
@@ -45,34 +45,20 @@ Foreach ($import in $functions)
         Write-Error -Message "Failed to import function $($import.FullName): $_"
     }
 }
-function Exit-Me
-{
-    #Stop-Transcript
-    Get-History | Where ExecutionStatus -eq "Completed" | Export-Clixml -Path "$(split-path $profile)\History.clixml"
-    Exit
-}
+
 function Save-History
 {
-    Get-History | Where ExecutionStatus -eq "Completed" | Export-Clixml -Path "$(split-path $profile)\History.clixml"
+    Get-History | Where-Object ExecutionStatus -eq "Completed" | Export-Clixml -Path "$(split-path $profile)\History.clixml"
 }
 Invoke-Expression "function $([char]4) { Exit-Me }"
 # Vim setup
 $VIMPATH = "C:\Program Files (x86)\vim\vim80\vim.exe"
 
-Set-Alias vi    $VIMPATH
-Set-Alias vim   $VIMPATH
-Set-Alias v     $VIMPATH
+Set-Alias -Name vi -Value $VIMPATH
+Set-Alias -Name vim -Value $VIMPATH
+Set-Alias -Name v -Value $VIMPATH
+Set-Alias -Name cdG -Value Set-LocationGit
 
-# for editing your PowerShell profile
-Function Edit-Profile
-{
-    vim $profile
-}
-# for editing your vim settings
-Function Edit-Vimrc
-{
-    vim $home\.vimrc
-}
 # Shell
 if (Test-Path -path "$(Split-Path $profile)\History.clixml")
 {
