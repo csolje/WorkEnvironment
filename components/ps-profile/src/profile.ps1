@@ -11,19 +11,19 @@ if (-not (Get-Module -ListAvailable -Name Posh-SSH))
 {
     Install-Module -Name Posh-SSH -Scope CurrentUser
 }
-<#if (-not (Get-Module -ListAvailable -Name powerline))
+if (-not (Get-Module -ListAvailable -Name powerline))
 {
     Install-Module -Name powerline -Scope CurrentUser
-}#>
+}
 if (-not (Get-Module -ListAvailable -Name oh-my-posh))
 {
     Install-Module -Name oh-my-posh -Scope CurrentUser
 }
 Import-Module PSReadline
 Import-Module posh-git
-#Import-Module powerline
+Import-Module powerline
 Import-Module oh-my-posh
-#Set-Theme Paradox
+Set-Theme -name robbyrussell
 
 # Start Apps and set Location
 Start-SshAgent -Quiet
