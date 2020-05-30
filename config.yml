@@ -20,6 +20,7 @@ packages:
     - 'pwsh'
     - 'vscode'
     - 'notepad2'
+    - 'vim'
     - 'python'
     - 'sharpkeys'
     - 'microsoft-teams'
