@@ -1,4 +1,4 @@
-function Start-admps
+function Start-PSAdmin
 {
     <#
     .SYNOPSIS
