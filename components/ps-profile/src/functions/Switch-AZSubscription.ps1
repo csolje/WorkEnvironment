@@ -1,4 +1,4 @@
-function Switch-Subscription {
+function Switch-AZSubscription {
     param (
         # Parameter help description
         [Parameter(Mandatory)]
