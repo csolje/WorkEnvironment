@@ -27,7 +27,7 @@ if (-not(Test-Path -Path $profile))
     if (-not(Test-Path -Path $ProfilePath)) { New-Item -Path $ProfilePath -Type Directory }
 
     Copy-Item -Path "$srcPath\functions" -Destination $ProfilePath -Recurse -Force
-    Copy-Item -Path "$srcPath\History.xml" -Destination $ProfilePath -Force
+    Copy-Item -Path "$srcPath\History.clixml" -Destination $ProfilePath -Force
     Copy-Item -Path "$srcPath\$profileTemplateName" -Destination $ProfilePath -Force
     Rename-Item -Path "$ProfilePath\$profileTemplateName" -NewName $ProfileName -Force
 }
