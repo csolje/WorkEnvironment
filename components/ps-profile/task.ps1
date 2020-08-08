@@ -7,7 +7,7 @@ param
 
     # path to the src folder
     [Parameter()]
-    [string] $srcPath = "$PSScriptRoot\src",
+    [string] $srcPath = "$PSScriptRoot\components\ps-profile\src",
 
     # Name of the Profile file.
     [Parameter()]

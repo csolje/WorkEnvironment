@@ -24,8 +24,6 @@ packages:
     - 'python'
     - 'sharpkeys'
     - 'microsoft-teams'
-    - 'dotnetcore'
-    - 'dornetcore-sdk'
     - 'dropbox'
     - 'terraform'
     - 'golang'
