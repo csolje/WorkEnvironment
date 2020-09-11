@@ -1,9 +1,8 @@
 packages:
     - 'chocolatey'
-    - 'googlechrome'
+    - 'brave'
     - 'firefox'
     - 'azure-cli'
-    - 'awscli'
     - 'cmder'
     - 'postman'
     - 'nuget.commandline'
