@@ -1,6 +1,6 @@
 packages:
     - 'chocolatey'
-    - 'googlechrome'
+    - 'brave'
     - 'firefox'
     - 'azure-cli'
     - 'awscli'
