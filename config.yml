@@ -17,6 +17,6 @@ packages:
     - 'pwsh'
     - 'vscode'
     - 'notepad2'
-    - 'vim'
+    - 'neovim'
     - 'sharpkeys'
     - 'microsoft-teams'
