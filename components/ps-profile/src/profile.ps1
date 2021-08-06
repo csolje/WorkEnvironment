@@ -23,7 +23,7 @@ Import-Module PSReadline
 Import-Module posh-git
 Import-Module powerline
 Import-Module oh-my-posh
-Set-Theme -name robbyrussell
+Set-Theme -name slimfat
 
 # Start Apps and set Location
 Start-SshAgent -Quiet
